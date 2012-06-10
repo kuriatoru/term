@@ -1,0 +1,6 @@
+Terminal
+========
+
+This is a hardware terminal for Digilent Nexys3 Spartan-6 fpga.
+In order to make it work add the following line to your /etc/inittab
+s0:2345:respawn:/sbin/agetty -8 -s 9600 ttyUSB0 linux

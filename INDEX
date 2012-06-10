@@ -1,0 +1,4 @@
+sim: simulations
+syn: synthesis
+rtl: RTL sources
+tools: tools sources

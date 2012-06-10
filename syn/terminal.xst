@@ -1,0 +1,17 @@
+run
+-ifn terminal.prj
+-ofn terminal
+-top terminal
+-p xc6slx16-3-csg324
+-glob_opt AllClockNets
+-bus_delimiter <>
+-slice_utilization_ratio 100
+-bram_utilization_ratio 100
+-dsp_utilization_ratio 100
+-reduce_control_sets auto
+-safe_implementation no
+-async_to_sync no
+-shreg_min_size 2
+-iobuf yes
+-bufg 16
+-slice_utilization_ratio_maxmargin 5
